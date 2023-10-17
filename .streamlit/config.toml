@@ -1,0 +1,9 @@
+[theme]
+primaryColor="#7743DB"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F9F9F9"
+textColor="#232452"
+font="sans serif"
+[server]
+maxMessageSize = 1000
+maxUploadSize = 500

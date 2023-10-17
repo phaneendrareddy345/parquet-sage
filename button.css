@@ -1,0 +1,19 @@
+div.stButton > button:first-child {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 200px;
+    animation: zoom 1s infinite alternate; /* Apply zoom animation (1s duration) */
+}
+
+/* Zoom animation */
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}

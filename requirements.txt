@@ -1,6 +1,12 @@
 altair
-pandas
+pandas==1.5.3
 streamlit
 openpyxl
 plotly
 duckdb
+streamlit-extras
+streamlit-ace
+xlsxwriter==3.0.3
+streamlit-lottie
+requests
+st-pages
