@@ -1,8 +1,0 @@
-[theme]
-primaryColor="#7743DB"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F9F9F9"
-textColor="#7743DB"
-font="sans serif"
-[server]
-maxMessageSize = 1000
