@@ -43,7 +43,6 @@ with st.expander("Browse Files"):
 prev_data,slq_editor = st.tabs(["Preview File","SQL Editor"])
 with prev_data:
     st.caption("Preview data from parquet file using UI")
-    @st.cache_data
     def read_data():
         st.session_state.input_parqet_file=input_parqet_file
         myfile=pd.read_parquet(io.BytesIO(st.session_state["input_parqet_file"].getvalue()))
