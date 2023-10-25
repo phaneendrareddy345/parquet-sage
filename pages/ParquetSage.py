@@ -55,7 +55,7 @@ with prev_data:
         df_ui_grid = grid([1,1])
         df_ui_grid.info("Displaying only top 1000 rows")
         df_ui_grid.info(f"Total Number of Records {len(myfile)}")
-        st.dataframe(df_ui.sample(1000))
+        st.dataframe(df_ui)
     # limit_rows = st.checkbox("limit rows")
     # if limit_rows:
     #     limit = st.number_input("Number of Rows",value=1000,min_value=1,max_value=10000)
