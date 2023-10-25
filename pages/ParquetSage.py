@@ -53,8 +53,8 @@ with prev_data:
         myfile = read_data()
         df_ui = dataframe_explorer(myfile,case=True)
         df_ui_grid = grid([1,1])
-        df_ui_grid.info("Displaying only top 1000 rows")
-        df_ui_grid.info(f"Total Number of Records {len(myfile)}")
+        #df_ui_grid.info("Displaying only top 1000 rows")
+        df_ui_grid.info(f"Total Number of Records: {len(myfile)}")
         st.dataframe(df_ui)
     # limit_rows = st.checkbox("limit rows")
     # if limit_rows:
