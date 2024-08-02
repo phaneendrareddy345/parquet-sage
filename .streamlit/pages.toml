@@ -1,4 +1,8 @@
 [[pages]]
+path = "streamlit_app.py"
+name = "Home"
+
+[[pages]]
 path = "About.py"
 name = "About"
 
