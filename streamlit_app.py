@@ -14,19 +14,19 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 from streamlit_lottie import st_lottie
 from streamlit_extras.streaming_write import write
 import time
-from st_pages import Page,show_pages
+#from st_pages import Page,show_pages
 
 logo = Image.open("logo.png")
 st.set_page_config(layout="wide",page_title="Home",page_icon=logo)
-show_pages(
-    [
-        Page("streamlit_app.py","Home"),
-        Page("pages/ParquetSage.py","ParquetSage"),
-        Page("pages/View Demo.py","View Demo"),
-        Page("pages/Contact Us.py","Contact Us"),
-        Page("pages/About.py","About")
-    ]
-)
+# show_pages(
+#     [
+#         Page("streamlit_app.py","Home"),
+#         Page("pages/ParquetSage.py","ParquetSage"),
+#         Page("pages/View Demo.py","View Demo"),
+#         Page("pages/Contact Us.py","Contact Us"),
+#         Page("pages/About.py","About")
+#     ]
+# )
 # st.markdown("""<h1 style='text-align:center'>Parquet Sage</h1>""",unsafe_allow_html=True)
 with open("line.html","r") as line:
     line_f = line.read()
