@@ -1,5 +1,5 @@
 [[pages]]
-path = "./streamlit_app.py"
+path = "streamlit_app.py"
 name = "Home"
 
 [[pages]]
