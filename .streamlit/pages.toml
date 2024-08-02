@@ -1,0 +1,15 @@
+[[pages]]
+path = "About.py"
+name = "About"
+
+[[pages]]
+path = "ParquetSage.py"
+name = "Parquet Sage"
+
+[[pages]]
+path = "Contact Us.py"
+name = "Contact Us"
+
+[[pages]]
+path = "View Demo.py"
+name = "View Demo"
